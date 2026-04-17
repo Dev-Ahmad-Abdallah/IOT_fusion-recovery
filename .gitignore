@@ -53,3 +53,9 @@ tea_debug.log
 
 # Lab / scratch notebooks
 *lab.ipynb
+
+# Allow recovered artifacts under artifacts/ and models/ even though extensions are otherwise ignored
+!artifacts/
+!artifacts/**
+!models/
+!models/**
