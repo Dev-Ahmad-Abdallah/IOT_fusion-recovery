@@ -1,8 +1,55 @@
-.env
+# Python
 __pycache__/
+*.py[cod]
+*$py.class
 .ipynb_checkpoints/
-*lab.ipynb
 .venv/
 .pytest_cache/
+
+# Env & secrets
+.env
+W&B.env
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# ML artifacts (big / generated / reproducible)
+wandb/
+outputs/
 artifacts/models/
+artifacts/preprocessing/
 *.onnx
+*.pth
+*.pt
+*.ckpt
+*.pkl
+*.npy
+*.npz
+*.h5
+
+# Data (too big for git)
+Un-Processed_Data_Set/
+dataset/
+processed.zip
+processed_images.zip
+*.zip
+
+# Generated XAI outputs
+NEW/processed/
+NEW/Sota_onnx*
+NEW/unprocessed/
+
+# Recovery scratch
+recovered_blobs/
+recovery/
+rummage_recovered.ipynb
+GITIGNORE_CONTENTS_VISIBLE.txt
+tea_debug.log
+
+# Lab / scratch notebooks
+*lab.ipynb
