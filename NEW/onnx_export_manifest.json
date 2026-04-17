@@ -1,0 +1,16 @@
+{
+  "experiment": {
+    "dataset_source": "unprocessed",
+    "variant": "default_balanced",
+    "experiment_name": "sota_best",
+    "image_model": "sota",
+    "tabular_model": "multi_expert",
+    "mode": "late_fusion",
+    "scope": "sota"
+  },
+  "input_names": [
+    "image",
+    "metadata"
+  ],
+  "output": "logits"
+}
